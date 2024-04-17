@@ -8,13 +8,33 @@ dict={
     },
     'arr':[1,2,3,4]
 }
-s={1:3}
-print(dict['age'])
-print(dict['obj'])
-print(type(dict))
-print(dict.keys())
-print(dict.values())
-print(dict.items())
-print(dict.get('arr'))
-dict.update(s)
-print(dict)
+new={1:3}
+dict["name2"]="RAHUL"
+# print(dict['age'])
+# print(dict['obj'])
+# print(type(dict))
+# print(dict.keys())
+# print(dict.values())
+# print(dict.items())
+# print(dict.get('arr'))
+# dict.update(new)
+# print(list(dict.keys()))
+# print(len(dict))
+
+
+# h.w 
+# 1. 
+
+# dict4={ 
+# "table":[
+#     "a piece of furniture",
+#     "list of facts and figure"
+# ],
+# "cat":"animal"
+
+# }
+
+# print(dict4["table"])
+
+
+# 2
