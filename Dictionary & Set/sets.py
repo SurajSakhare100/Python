@@ -35,9 +35,13 @@ collection=set()
 
 
 # 2 
-set =set()
-print(set)
-set.add(int(input('enter marks: ')))
-set.add(int(input('enter marks: ')))
-set.add(int(input('enter marks: ')))
-print(set)
+# set =set()
+# print(set)
+# set.add(int(input('enter marks: ')))
+# set.add(int(input('enter marks: ')))
+# set.add(int(input('enter marks: ')))
+# print(set)
+
+
+# setk={('int',9),('flaot',9.0)}
+# print(setk)

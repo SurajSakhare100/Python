@@ -38,3 +38,16 @@ dict["name2"]="RAHUL"
 
 
 # 2
+
+# d={}
+
+# d[input('enter sub: ')]=(int(input('enter marks: ')))
+# d[input('enter sub: ')]=(int(input('enter marks: ')))
+# d[input('enter sub: ')]=(int(input('enter marks: ')))
+# print(d)
+
+# //another way
+
+# x=int((input('enter marks: ')))
+# d.update({"phy":x})
+# print(d)
