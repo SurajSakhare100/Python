@@ -80,3 +80,10 @@
 #   i+=1
   
   
+# for loop
+range=[11,22,33,44]
+tup=[1,2,3,4]
+for item in range:
+ print(item)
+for item in tup:
+ print(item)
