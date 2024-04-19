@@ -81,9 +81,35 @@
   
   
 # for loop
-range=[11,22,33,44]
-tup=[1,2,3,4]
-for item in range:
- print(item)
-for item in tup:
- print(item)
+# range=[11,22,33,44]
+# tup=[1,2,3,4]
+# for item in range:
+#  print(item)
+# for item in tup:
+#  print(item)
+ 
+# for item in (1,3,5):
+#  print(item)
+
+# # Factorial of 5 is 120
+
+# number = 5
+# factorial = 1
+
+# for i in range(1, number + 1):
+#     factorial *= i
+
+# print("Factorial of", number, "is", factorial)
+
+
+
+# Define a dictionary
+person = {
+    "name": "Alice",
+    "age": 30,
+    "city": "New York"
+}
+
+# Iterate over the dictionary
+for key, value in person.items():
+    print(key + ":", value)
