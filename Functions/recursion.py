@@ -48,3 +48,5 @@ def reverse_string(string):
 text = "Hello, world!"
 reversed_text = reverse_string(text)
 print(f"The reversed string of '{text}' is: '{reversed_text}'")
+
+

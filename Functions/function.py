@@ -49,3 +49,26 @@ def fibonacci_sequence(n):
 
 num_terms = 10
 print(f"The Fibonacci sequence up to {num_terms} terms is: {fibonacci_sequence(num_terms)}")
+
+
+def greet(name):
+    print("Hello, " + name + "!")
+
+greet("Alice")
+
+def check_even_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+num = 7
+result = check_even_odd(num)
+print("The number", num, "is:", result)
+
+def print_squares(n):
+    for i in range(1, n+1):
+        square = i ** 2
+        print(f"The square of {i} is {square}")
+
+print_squares(5)
