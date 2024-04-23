@@ -22,3 +22,39 @@ dog.wag_tail()
 
 cat.make_sound()  
 cat.purr()        
+
+
+class Shape:
+    def __init__(self, color='black'):
+        self.color = color
+
+    def get_color(self):
+        return self.color
+
+    def area(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self, radius, color='red'):
+        super().__init__(color)
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius ** 2
+class Rectangle(Shape):
+    def __init__(self, length, width, color='blue'):
+        super().__init__(color)
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+circle = Circle(5)
+rectangle = Rectangle(4, 6)
+
+shapes = [circle, rectangle]
+for shape in shapes:
+    print(f"Area of the shape is {shape.area()} units square.")
+    print(f"Color of the shape is {shape.get_color()}.")
+    print()
