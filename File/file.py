@@ -24,3 +24,14 @@
 #     content = file.read()
 #     file.close()
 #     print(content)
+
+
+with open('binary_data.bin', 'wb') as file:
+    data = bytearray([0x48, 0x65, 0x6C, 0x6C, 0x6F]) 
+    file.write(data)
+
+with open('binary_data.bin', 'rb') as file:
+    binary_data = file.read()
+    print(binary_data)
+    hex_data = ' '.join(format(byte, '02X') for byte in binary_data)
+    print("Hexadecimal representation:", hex_data)
