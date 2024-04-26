@@ -25,13 +25,15 @@
 #     file.close()
 #     print(content)
 
-
+# Writing binary data to a file
 with open('binary_data.bin', 'wb') as file:
-    data = bytearray([0x48, 0x65, 0x6C, 0x6C, 0x6F]) 
+    data = bytearray([0x48, 0x65, 0x6C, 0x6C, 0x6F])  # ASCII values for "Hello"
     file.write(data)
 
+# Reading binary data from a file
 with open('binary_data.bin', 'rb') as file:
     binary_data = file.read()
     print(binary_data)
+    # Convert bytes to hexadecimal for better visualization
     hex_data = ' '.join(format(byte, '02X') for byte in binary_data)
     print("Hexadecimal representation:", hex_data)

@@ -30,8 +30,8 @@ print("Total: " ,num1+num2)
 num1=float(input("enter value of side: "))
 print("size of squre: " ,(num1*num1))
 """
-
-
+num=int(input("enter a name: "))
+print(num*3)
 
 
 
